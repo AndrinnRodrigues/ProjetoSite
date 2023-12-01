@@ -1,0 +1,38 @@
+{% load static %}
+<section id="portfolio" class="bg-light py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Meu Portfólio</h2>
+      <div class="row">
+          <!-- Projeto 1 -->
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                <a href="{% static 'Portfolio\projetos\projeto1.htmll' %}"><img src="{% static 'portfolio/img/Imagem_Projeto.jpg' %}" class="card-img-top" alt="Projeto 1"></a>
+                  <div class="card-body">
+                      <h5 class="text-center card-title">Projeto 1</h5>
+                      <p class="text-center card-text">Breve descrição do projeto 1.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Projeto 2 -->
+          <div class="col-md-4 mb-4 mb-4">
+              <div class="card">
+                <a href="{% static 'Portfolio/projetos/projeto2.html' %}"><img src="{% static 'portfolio/img/Imagem_Projeto.jpg' %}" class="card-img-top" alt="Projeto 2"></a>
+                  <div class="card-body">
+                      <h5 class="text-center card-title">Projeto 2</h5>
+                      <p class="text-center card-text">Breve descrição do projeto 2.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Projeto 3 -->
+          <div class="col-md-4 mb-4 mb-4">
+            <div class="card">
+               <a href="{% static 'Portfolio/projetos/projeto3.html' %}"><img src="{% static 'portfolio/img/Imagem_Projeto.jpg' %}" class="card-img-top" alt="Projeto 3"></a>
+                <div class="card-body">
+                    <h5 class="text-center card-title">Projeto 3</h5>
+                    <p class="text-center card-text">Breve descrição do projeto 3.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</section>

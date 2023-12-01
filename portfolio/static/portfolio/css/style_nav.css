@@ -1,0 +1,21 @@
+/* styles.css */
+/* Cor de fundo do ícone do botão */
+.custom-toggler .navbar-toggler-icon {
+    background-color: #ece4e4;
+  }
+  
+  /* Remova a borda ao clicar no botão */
+  .custom-toggler:focus {
+    outline: none;
+  }
+  
+  /* Cor do texto do botão */
+  .navbar-nav .nav-link {
+    color: #e9e3e3;
+  }
+  
+  /* Cor do texto do botão ao passar o mouse */
+  .navbar-nav .nav-link:hover {
+    color: #ccc;
+  }
+  

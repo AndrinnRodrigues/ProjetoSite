@@ -1,0 +1,52 @@
+{%load static %}
+
+   <p><title>Entre em Contato</title></p>
+   <link rel="stylesheet" href="{% static 'portfolio/css/style_formulario.css' %}" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h2>Entre em Contato</h2>
+
+<p>Fique à vontade para entrar em contato comigo. Estou ansioso para ouvir suas ideias, responder a perguntas ou discutir possíveis colaborações.</p>
+
+<h3>Informações de Contato:</h3>
+
+<ul>
+    <li><strong>Telefone:</strong> (22) 99810-7925</li>
+    <li><strong>E-mail:</strong><a href="mailto:dev.anderson@gmail.com"> dev.anderson@gmail.com</li></a>
+</ul>
+
+<h3>Redes Sociais:</h3>
+
+<ul>
+    <p><img src="{% static 'portfolio/icons/linkedin.png' %}"><a href="[Seu_Link_LinkedIn]">LinkedIn</p>
+    <p><img src="{% static 'portfolio/icons/github.png' %}"><a href="https://github.com/AndrinnRodrigues/ProjetoSite.git">GitHub</p>
+    <p><img src="{% static 'portfolio/icons/twitter.png' %}"><a href="[Seu_Link_Twitter]">Twitter</a>
+    
+</ul>
+
+<h3>Horário de Atendimento:</h3>
+
+<p>Estou disponível para contato nos dias úteis, das 9h às 18h. Respondo a e-mails e mensagens o mais rápido possível.</p>
+
+<h3>Localização:</h3>
+
+<p> Bom Jesus do Itabapoana/RJ, CEP: 28360-000</p>
+
+<h3 class="text-center mb-4">Formulário de Contato:</h3>
+
+<form action="[Seu_Action_Aqui]" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

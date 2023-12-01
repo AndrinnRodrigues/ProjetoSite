@@ -1,0 +1,18 @@
+header {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+}
+
+header img {
+    max-width: 250px; /* Largura máxima da imagem */
+    border-radius: 50%; /* Borda circular para a imagem */
+}
+
+h2 {
+    margin-top: 20px; /* Margem superior de 10 pixels para o título */
+}
+
+p.lead {
+    font-style: italic; /* Estilo itálico para o parágrafo com a classe 'lead' */
+}

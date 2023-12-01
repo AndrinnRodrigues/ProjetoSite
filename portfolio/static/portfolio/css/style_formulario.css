@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo */
+    color: #555; /* Cor do texto*/
+}
+
+h2 {
+    color: #004080;
+}
+
+h3{
+    color: #004080; 
+}
+
+p {
+    margin-bottom: 15px; /* margem inferior para os parágrafos */
+}
+
+ul {
+    list-style-type: square; /* estilo da lista */
+    padding: 0px; /* preenchimento à lista */
+}
+
+ul li {
+    margin-bottom: 0px; /* espaço entre os itens da lista */
+}
+
+img {
+    max-width: 30px; /* Largura máxima */
+    max-height: 30px; /* Altura máxima */
+    margin-right: 8px; /* espaço à direita das imagens */
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #1f10ee;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #1ad86f;
+}
